@@ -199,11 +199,4 @@ Dev / tooling:
 - Add integration tests for API endpoints and validation checks.
 - Harden auth token handling (longer expiry, refresh tokens if required) and secure email credentials via secrets manager in production.
 
----
 
-If you'd like, I can:
-- Add `npm` scripts and fix the controller/model import issues I noted
-- Generate an OpenAPI (Swagger) spec for the endpoints
-- Create a minimal `docker-compose.yml` for local MongoDB + app
-
-Tell me which of these you'd like me to do next.
