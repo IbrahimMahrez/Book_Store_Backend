@@ -187,16 +187,6 @@ Main libraries (from `package.json`):
 Dev / tooling:
 - `nodemon` — development file watcher
 
-## Notes & known issues
 
-- Some controller files contain inconsistent imports or minor issues (for example `authorscontroll.js` requires `../models/book` instead of the `Author` model). Review controllers for correct model imports before production.
-- The seeder script uses CLI flags; ensure you run it from the repo root and check paths if it errors.
-- No automated tests are included.
-
-## Next steps / suggestions
-
-- Add `npm` scripts and a `dev` script for easier runs.
-- Add integration tests for API endpoints and validation checks.
-- Harden auth token handling (longer expiry, refresh tokens if required) and secure email credentials via secrets manager in production.
 
 
